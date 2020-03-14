@@ -1,6 +1,6 @@
 package com.company;
 
-public class player <T> implements Runnable {
+public class player <T extends Number> implements Runnable {
     private T runnerId;
 
     public player(T runnerId) {
